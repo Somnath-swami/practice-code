@@ -58,11 +58,28 @@
             int x,y;
             cout<< "Enter the value of x = ";
             cin >> x ;
-            y=pow(x,2)-(2*x)+1;
-            cout<< "Result = "<< y;
+            cout<< "Result = "<< (y=pow(x,2)-(2*x)+1);
             
             return 0;
         }
         
         OUTPUT : Enter the value of x = 4
-                 Result = 25
+                 Result = 9
+
+4. Write program to calcuate area of circle.
+    #include<bits/stdc++.h>
+    
+    using namespace std;
+    
+    int main()
+    {
+        float area, radius,pi=3.14;
+        cout<< "Enter radius = ";
+        cin >>radius;
+        cout<<"Area = "<<float(area=(p*r*r));
+        
+        return 0;
+    }
+    
+    OUTPUT : Enter radius = 5
+             Area = 78.5 
