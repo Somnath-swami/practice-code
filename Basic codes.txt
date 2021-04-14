@@ -20,8 +20,7 @@
     int  main()
     {
         int a=5,b=5;
-        a+=b;
-        cout<<a;
+        cout<<( a+=b);
         
         return 0;
     }
@@ -73,7 +72,7 @@
     
     int main()
     {
-        float area, radius,pi=3.14;
+        float area, radius, pi=3.14;
         cout<< "Enter radius = ";
         cin >>radius;
         cout<<"Area = "<<float(area=(p*r*r));
