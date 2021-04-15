@@ -103,6 +103,12 @@
             return 0;
         }
         
+        OUTPUT : Enter the values of A and B
+                 2
+                 3
+                 Before swapping A = 2 B = 3
+                 After swapping A = 3 B = 2
+        
      (solution without using temp variable)
         #include<bits/stdc++.h>
 
@@ -123,5 +129,11 @@
             return 0;
         }
         
-6. 
+        OUTPUT : Enter the values of A and B
+                 2
+                 3
+                 Before swapping A = 2 B = 3
+                 After swapping A = 3 B = 2
+
+
 
