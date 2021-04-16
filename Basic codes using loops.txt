@@ -155,6 +155,30 @@
     OUTPUT : Enter the number = -5
              Enterd number -5 is negative.
 
+8. Write a program to calcuate factorial of given number.
+    #include <iostream>
+
+    using namespace std;
+
+    int main()
+    {
+        int n;
+        cout <<"Enter the number = ";
+        cin >> n;
+        int fact = 1;
+        for(int i=1;i<=n;i++)
+        {
+            fact=fact*i;
+        }
+        cout <<"Factorial = " << fact;
+
+        return 0;
+    }
+    
+    OUTPUT : Enter the number = 5
+             Factorial = 120
+
+
 
 
 
