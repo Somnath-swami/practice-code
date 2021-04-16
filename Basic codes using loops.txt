@@ -128,6 +128,35 @@
     
     OUTPUT : Enter the number = 5
              Enterd number 5 is odd.
+             
+7. Write a program to check entered number is zero, positive or  negative.
+    #include<bits/stdc++.h>
+
+    using namespace std;
+
+    int main()
+    {
+        int n;
+        cout << "Enter the number = ";
+        cin >> n;
+        if(n==0)
+            cout <<"Enterd number " << n <<" is zero.";
+        else 
+            {
+                if(n>0)
+                    cout <<"Enterd number " << n << " is positive.";
+                else
+                    cout <<"Enterd number "<< n << " is negative.";
+            }
+    
+        return 0;
+    }
+    
+    OUTPUT : Enter the number = -5
+             Enterd number -5 is negative.
+
+
+
 
 
 
