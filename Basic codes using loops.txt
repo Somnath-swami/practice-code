@@ -84,6 +84,54 @@
   OUTPUT : Enter the number upto you want to print fib = 10
            0 1 1 2 3 5 8 
 
+5. Write a program to print largest number between two numbers.
+    #include<bits/stdc++.h>
+
+    using namespace std;
+
+    int main()
+    {
+        int a,b;
+        cout <<"Enter the values of A and B" << "\n" ;
+        cin >> a >> b;
+        if(a>b)
+            cout << "A is greater than B i.e = " << a;
+        else
+            cout << "B is greater than A i.e = " << b;
+    
+
+        return 0;
+    }
+    
+    OUTPUT : Enter the values of A and B
+             5
+             10
+             B is greater than A i.e = 10
+
+6. Write a program to display its even or odd.
+    #include<bits/stdc++.h>
+
+    using namespace std;
+
+    int main()
+    {
+        int n;
+        cout << "Enter the number = ";
+        cin >> n;
+        if(n%2==0)
+            cout <<"Enterd number " << n <<" is even.";
+        else
+            cout <<"Enterd number " << n << " is odd.";
+    
+        return 0;
+    }
+    
+    OUTPUT : Enter the number = 5
+             Enterd number 5 is odd.
+
+
+
+
 
 
 
