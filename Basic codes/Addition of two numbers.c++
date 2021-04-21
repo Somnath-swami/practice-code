@@ -1,6 +1,8 @@
-#include<iostream>
+// Write program to add two numbers.    
     
-using namespace std;
+    #include<iostream>
+    
+    using namespace std;
     
     int  main()
     {
