@@ -12,20 +12,7 @@
 
     OUTPUT : Hello World
     
-2. Write program to add two numbers.
-    #include<iostream>
-    
-    using namespace std;
-    
-    int  main()
-    {
-        int a=5,b=5;
-        cout<<( a+=b);
-        
-        return 0;
-    }
-    
-    OUTPUT : 10
+
 
 3. Write program to solve given equation y=x^2-2x+1.
     (solution without using power function)
