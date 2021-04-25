@@ -49,4 +49,5 @@ OUTPUT : Enter the size of array = 10
          Element found in array = 5
 
 
+    //Time complexity O(n)
 
