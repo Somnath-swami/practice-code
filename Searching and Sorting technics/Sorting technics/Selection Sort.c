@@ -46,3 +46,17 @@ int main()
     
     return 0;
 }
+
+
+
+OUTPUT : Enter the size of array = 5
+         Enter 5 elements in array 
+         64
+         25
+         12
+         11
+         22
+         11 12 22 25 64 
+
+//Time Complexity: O(n^2) 
+
