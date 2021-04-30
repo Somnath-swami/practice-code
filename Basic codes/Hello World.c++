@@ -11,7 +11,3 @@
     }
 
     OUTPUT : Hello World
-    
- 
-
-
